@@ -85,7 +85,7 @@ function ListarPersonas (){
 if (dbPersonas.length !== 0) {
     ListarPersonas();
 } else {
-    $("#dbPersonas-list").append("<h2> No tienes usuarios </h2>");
+    $("#dbPersona-list").append("<h2> No tienes usuarios </h2>");
 }
 
 function contarPersonas(){
